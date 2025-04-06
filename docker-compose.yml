@@ -1,7 +1,7 @@
 version: '2'
 services:
   cb:
-    image: countrybank
+    image: nikitap/countrybank
     ports:
       - "8000:8000"
     environment:
